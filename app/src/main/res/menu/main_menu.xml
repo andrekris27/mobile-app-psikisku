@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Appointment">
+        <menu>
+            <item
+                android:id="@+id/nav_appPsikolog"
+                android:icon="@drawable/doctor"
+                android:title="Appointment Psikolog" />
+
+            <item
+                android:id="@+id/nav_appPsikiater"
+                android:icon="@drawable/doctor"
+                android:title="Appointment Psikiater" />
+        </menu>
+    </item>
+
+    <item android:title="Shop">
+        <menu>
+            <item
+                android:id="@+id/checkout"
+                android:icon="@drawable/shoppingcart"
+                android:title="Check Out" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

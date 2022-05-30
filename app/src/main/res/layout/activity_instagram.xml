@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Instagram">
+
+    <RelativeLayout
+        android:id="@+id/panel_i"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/purple_200">
+
+        <ImageView
+            android:id="@+id/back_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            app:srcCompat="@drawable/back_arrow" />
+    </RelativeLayout>
+
+
+    <WebView
+        android:id="@+id/webViewInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="250dp" />
+</LinearLayout>

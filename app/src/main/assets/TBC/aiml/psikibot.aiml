@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+
+##Tampilan Awal
+<category>
+    <pattern>*</pattern>
+    <template>
+        Command salah!
+        Jika ingin memulai layanan ketik mulai.
+    </template>
+</category>
+
+
+##Tampilan Mulai
+<category>
+    <pattern>mulai</pattern>
+    <template>
+        Hai, perkenalkan namaku Psikibot😊
+        Ada yang bisa aku bantu? (ketik sesuai angkanya ya!)
+            1.Akun
+            2.Tenaga Ahli
+            3.Pembelian Obat
+            4.Buat Janji Dokter
+    </template>
+</category>
+'
+##Kembali
+<category>
+    <pattern>Kembali</pattern>
+    <template>
+        Hai, perkenalkan namaku Psikibot😊
+        Ada yang bisa aku bantu? (ketik sesuai angkanya ya!)
+            1.Akun
+            2.Tenaga Ahli
+            3.Pembelian Obat
+            4.Buat Janji Dokter
+    </template>
+</category>
+
+'##Tampilan Akun
+<category>
+    <pattern>1</pattern>
+    <template>
+        Akun (ketik sesuai angkanya ya!)
+            5.Bagaimana cara daftar akun Psikisku?
+            6.Bagaimana cara mengganti password?
+            7.Bagaimana cara mengubah data diri profile?
+    (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>5</pattern>
+    <template>
+        - Klik New Member Sign Up
+        - Masukkan Username yang ingin digunakan
+        - Masukkan email anda
+        - Buat Password anda
+        - Lalu klik sign up dan akun anda sudah terdaftar
+        (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>6</pattern>
+    <template>
+        - klik menu profile
+        - lalu klik ubah password
+        - kemudian ubah password anda dan klik simpan
+        (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>7</pattern>
+    <template>
+        - klik menu profile
+        - lalu klik edit profile
+        - kemudian ubah data diri yang ingin anda ubah
+        - lalu klik simpan
+        (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+##TampilanTenagaAhli
+
+<category>
+    <pattern>Tenaga Ahli</pattern>
+    <template>
+    Tenaga Ahli (ketik sesuai angkanya ya!)
+        8.Ada berapa Tenaga Ahli di aplikasi Psikisku?
+        9.Apa perbedaan antara Psikolog dan Psikiater?
+        10.Apakah tenaga ahli sudah berpengalaman pada bidangnya?
+    (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+
+<category>
+    <pattern>8</pattern>
+    <template>
+        Terdapat 5 Psikolog dan 5 Psikiater pilihan pada aplikasi Psikisku.
+    (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+
+<category>
+    <pattern>9</pattern>
+    <template>
+        Psikiater adalah dokter yang memberikan terapi pengobatan kepada pasiennya. Mereka bisa meresepkan obat untuk terapi kesehatan mental dan emosional pasiennya. Sedangkan, psikolog lebih fokus pada psikoterapi untuk merawat gangguan emosional dan mental pasiennya.
+    (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>10</pattern>
+    <template>
+        Psikisku menjamin Tenaga ahli rujukan yang disediakan adalah tenaga ahli yang sudah berpengalaman dibidangnya dan teruji kualitasnya di dunia kedokteran atau spesifiknya dibidang kesehatan mental dengan pengalaman bekerja menjadi dokter atau psikiatri minimal 5 tahun.
+    (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+##TampilanPembelianObat
+
+<category>
+    <pattern>3</pattern>
+    <template>
+        Pembelian Obat (ketik sesuai angkanya ya!)
+        11.Apakah yang dimaksud layanan pembelian obat?(Apa itu layanan pembelian obat?)
+        12.Bagaimana cara menggunakan layanan pembelian obat?(Cara membeli obat?)
+        13.Apakah butuh resep dokter untuk membeli obat?(Apakah butuh resep dokter?)
+        14.Apakah saya bisa membeli obat untuk orang lain atau keluarga saya?(Membeli obat untuk orang lain)
+    (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>11</pattern>
+    <template>
+        Layanan pembelian obat pada aplikasi Psikisku ini adalah layanan yang menyediakan pembelian obat secara online hanya melalui aplikasi dan kemudian akan diantarkan oleh kurir ke rumah anda. Layanan ini diharapkan bisa memudahkan pengguna untuk membeli obat (obat bebas maupun obat resep).
+   (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>12</pattern>
+    <template>
+        -Klik menu medicine pada halaman depan
+        -Cari nama obat yang diinginkan
+        -Kemudian klik tanda + sesuaikan dengan jumlah obat yang ingin anda beli
+        -Kemudian klik pesan
+   (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>13</pattern>
+    <template>
+        Untuk pembelian obat bisa berdasarkan resep dokter ataupun tidak berdasarkan resep dokter. Namun untuk tiap-tiap obat akan dibatasi batas maksimal pembeliannya untuk menghindari kesalahgunaan pemakaian oleh pengguna.
+   (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+<category>
+    <pattern>14</pattern>
+    <template>
+        Ya, Anda dapat memesan obat untuk orang lain atau anggota keluarga lain. Tapi tentu saja dengan dibatasi maksimal pembelian tiap obatnya.
+    (Ketik kembali untuk balik ketampilan awal.)
+    </template>
+</category>
+
+##TampilanBuatJanjiDokter
+
+<category>
+    <pattern>4</pattern>
+    <template>
+        (Ketik sesuai angkanya ya!)
+        15.Apakah yang dimaksud dengan layanan janji dokter?
+        16.Bagaimana cara membuat janji atau appointment dengan dokter?
+        17.Apakah jadwal dokter di aplikasi sesuai dengan jadwal dokter dirumah sakit?
+        18.Bagaimana cara untuk memilih apakah kita harus konsultasi dengan psikolog atau psikiater?
+    (Ketik kembali untuk balik ketampilan awal.) 
+    </template>
+</category>
+
+<category>
+    <pattern>15</pattern>
+    <template>
+        Janji dokter merupakan layanan pembuatan janji konsultasi dengan tenaga ahli di rumah sakit atau klinik yang terdaftar di Psikisku. Layanan ini bertujuan untuk mempermudah dan menghemat waktu pasien untuk membuat appointment untuk konsultasi dengan dokter di rumah sakit atau klinik. 
+    (Ketik kembali untuk balik ketampilan awal.) 
+    </template>
+</category>
+
+<category>
+    <pattern>16</pattern>
+    <template>
+        - Pilih menu tenaga ahli
+        - Kemudian pilih untuk membuat janji dengan psikolog atau psikiater
+        - Kemudian pilih dokter sesuai dengan yang diinginkan
+        - Kemudian pilih jadwal yang tersedia dan liat lokasi dari dokternya
+        - Setelah selesai memilih klik book (boking)
+    (Ketik kembali untuk balik ketampilan awal.) 
+    </template>
+</category>
+
+<category>
+    <pattern>17</pattern>
+    <template>
+        Jika ada perbedaan jadwal yang ada di rumah sakit dengan yang ada di aplikasi Psikisku, maka Psikisku akan segera menghubungi pasien untuk melakukan booking appointment untuk dibuatkan jadwal baru yang sesuai.
+    (Ketik kembali untuk balik ketampilan awal.) 
+    </template>
+</category>
+
+<category>
+    <pattern>18</pattern>
+    <template>
+        Kami menyarankan untuk pasien yang masih merasakan gejala ringan lebih baik ke psikolog terlebih dahulu, namun nantinya psikolog juga bisa merekomendasikan pasien untuk ke psikiater jika dirasa gejala yang dirasakan pasien sudah berat atau pasien sudah membutuhkan bantuan obat dari psikiater. Namun jika pasien sudah merasakan gejala yang cukup berat bisa langsung ke psikiater. Sama halnya dengan psikolog, psikiater juga bisa menyarankan pasien untuk ke psikolog jika dirasa perlu.
+    (Ketik kembali untuk balik ketampilan awal.) 
+    </template>
+</category>
+
+</aiml>

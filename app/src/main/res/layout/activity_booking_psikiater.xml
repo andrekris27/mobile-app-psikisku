@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".BookingPsikiater">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@color/purple_200">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            app:srcCompat="@drawable/back_arrow" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/purple_200"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/psikolog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/aladin"
+            android:text="Booking Psikiater"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtWaktu"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/clock"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/aladin"
+            android:hint="Time"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnPilihWaktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/aladin"
+            android:gravity="center_horizontal"
+            android:text="Pilih Waktu"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:backgroundTint="@color/purple_200" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtVia"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/camera"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/aladin"
+            android:hint="Via"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnPilihVia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/aladin"
+            android:gravity="center_horizontal"
+            android:text="Pilih Platform"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:backgroundTint="@color/purple_200" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:autoText="true"
+            android:drawableLeft="@drawable/doctor"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/aladin"
+            android:hint="Doctor"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Book"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/purple_200" />
+
+</LinearLayout>
